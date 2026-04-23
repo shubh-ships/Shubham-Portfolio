@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="Shubham Singh - Software Engineer and Full Stack Developer specializing in creating responsive and visually appealing websites using React, Tailwind CSS, and modern web technologies. Explore my portfolio to see my work and skills in action."
-    />
-    <meta
-      name="keywords"
-      content="Shubham Singh, Software Engineer, Frontend Developer, Full Stack Developer, Web Developer, React, Tailwind CSS, Responsive Design, Portfolio"
-    />
-    <meta name="author" content="Shubham Singh" />
-    <link rel="icon" type="image/svg+xml" href="favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | Shubham Singh</title>
-    <style>
-      html { background-color: #ffffff; }
-      html.dark { background-color: #05030a; }
-    </style>
-    <script>
-      (function() {
-        const saved = localStorage.getItem('theme');
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        if (saved === 'dark' || (!saved && prefersDark)) {
-          document.documentElement.classList.add('dark');
-        } else {
-          document.documentElement.classList.remove('dark');
-        }
-      })();
-    </script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description"
+    content="Shubham Singh - Software Engineer and Full Stack Developer specializing in creating responsive and visually appealing websites using React, Tailwind CSS, and modern web technologies. Explore my portfolio to see my work and skills in action." />
+  <meta name="keywords"
+    content="Shubham Singh, Software Engineer, Frontend Developer, Full Stack Developer, Web Developer, React, Tailwind CSS, Responsive Design, Portfolio" />
+  <meta name="author" content="Shubham Singh" />
+  <link rel="icon" type="image/svg+xml" href="favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Shubham Singh</title>
+  <style>
+    html {
+      background-color: #ffffff;
+    }
+
+    html.dark {
+      background-color: #05030a;
+    }
+  </style>
+  <script>
+    (function () {
+      const saved = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (saved === 'dark' || (!saved && prefersDark)) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    })();
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script src="https://server-farm-fqdvcndefdazdkb2.centralindia-01.azurewebsites.net/static/widget.js"
+    data-key="bc_live_9KiOugfP.zodFnKZJTJwJBCb1xJci5hOITbPVKgG6" data-agent="c64f2001-c25b-456d-b7d5-85f625bf9be0"
+    data-api-url="https://server-farm-fqdvcndefdazdkb2.centralindia-01.azurewebsites.net" async></script>
+</body>
+
 </html>
